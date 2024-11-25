@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+#main {
+    width: 600px;
+    margin: 0 auto;
+}
+#main h2 {
+    font-family: Noto Sans;
+    color: #007acc;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+form {
+    padding: 30px 40px;
+    color: #fff;
+    text-align: center;
+}
+input {
+    border: 3px solid #007acc;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 440px;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+input:focus {
+    outline: none;
+}
+.plusBtn {
+    padding: 10px;
+    font-family: Noto Sans;
+    font-weight: bolder;
+    width: 80px;
+    height: 44px;
+    border: none;
+    background: #007acc;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3;
+}
+ul {
+    width: 520px;
+    margin: 0 auto;
+}
+ul li {
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+    padding: 12px 8px 12px 20px;
+    background: #bfd9e6;
+    color: #484849;
+    font-size: 18px;
+    transition: .2s;
+    text-align: center;
+}
+ul li:nth-child(odd) {
+    background: #9bcbe2;
+    color: #484849;
+}
+ul li:hover {
+    background: #007acc;
+    color: #fff;
+}
+.close {
+    position: absolute;
+    width: 80px;
+    right: 0;
+    top: 0;
+    padding: 12px 20px;
+    border: none;
+    background: #007acc;
+    color: #fff;
+}
+.close:hover {
+    background: #007acc;
+    color: #fff;
+}
