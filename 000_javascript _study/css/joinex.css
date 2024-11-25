@@ -1,0 +1,42 @@
+body {font:0.8em "돋움";}
+
+#join_mem{
+border:1px solid #e3b0b0;
+padding:20px 5px 50px 5px;
+position:absolute; top:50%; left:50%;
+margin-left:-195px; margin-top:-275px;
+width:380px;
+height:480px;
+/*background:#f4bfbf;*/background:#E89C9C;}
+#join_mem h2 {margin:10px 0 0 10px;color:#fff;text-align:center;}
+#join_mem button.close2{display:block;
+float:right;   cursor:pointer;   background:transparent;   border:none;  outline:none;
+font-size:3em;  width:40px;  height:40px;  color:#666;  }
+#join_mem label {   display:block;    padding-left:3px;    margin-bottom:10px;    color:#333;  }
+.id {position:relative;top:6px;}
+#id1{float:left;}
+#id2{ float:left;   margin-left:10px;  }
+#id2 button{outline:none;  border:1px solid rgba(255,255,255,0.7);  background:transparent;
+line-height:1.4em;  cursor:pointer;  }
+#id2 button:hover{ background:#000;  color:#fff;  }
+.id3{ clear:both; font-size:0.87em;  color:#fff; position:relative;top:-5px; }
+#join_mem .hp{width:50px;}
+#join_mem .hpp{width:50px;height:23px;position:relative;top:-3px;}
+#join_mem form{margin:20px 15px 0;}
+#join_mem input{  margin-bottom:10px;   display:inline-block;   border: none;  color:#333;
+  background:#fff;  font-size: 1em;    line-height: 1em;    width: 130px;
+  border:1px solid rgba(255,255,255,0.7);    padding: 3px 5px 3px 5px;    }
+#button{margin-top:10px;}
+  #button input{outline:none; border:none;  background:#999;  line-height:1.4em;
+cursor:pointer;  display:inline-block;  width:90px;  color:#fff;  }
+#button input:hover{
+background:#000;  color:#fff;  }
+#join_mem #email1 input{width:70px;}
+span.h {position:relative;top:-3px;}
+span.m {position:relative;top:-3px;}
+#join_mem .a2{width:10px;margin-right:1px;position:relative;top:3px;}
+#ph {width:290px!important;}
+#email1{width:290px!important;}
+.n {display:inline;}
+#id4{ font-size:0.87em;  color:#fff; position:relative;top:-5px; }
+#button .f_btn {background:#000;}
