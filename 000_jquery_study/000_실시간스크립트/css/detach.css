@@ -1,0 +1,50 @@
+@charset "utf-8";
+body {
+    font-family: Noto Sans Korean;
+    font-size: 1rem;
+}
+header img {
+    vertical-align: top;
+}
+.block-t {
+    background: #66cc00;
+    display: flex;
+    padding: 1% 7% 1%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.block-t h4{
+    display: inline-block;
+    color: #fff;
+}
+.block {
+    margin-left: 2%;
+    border: 2px solid #66cc00;
+    border-radius: 45px;
+    padding: 0 5px;
+    height: 5vh;
+    overflow: hidden;
+    background:#fff;
+    width: 60%;
+    font-size: 1rem;
+}
+.block li a {
+    display: block;
+    height: 5vh;
+    line-height: 5vh;
+    color: #1d1d1d;
+    font-weight: 500;
+    text-decoration: none;
+}
+.block li span {
+    display: inline-block;
+    padding: 2px 20px;
+    color: #555;
+    font-weight: 700;
+    margin-right: 3px;
+}
+.block li span em {
+    font-style: normal;
+    padding-left: 2px;
+    color: #66cc00;
+}
